@@ -26,7 +26,7 @@ header{
 
 nav{
     justify-content: center;
-    
+
 }
 
 .login{
@@ -36,4 +36,55 @@ nav{
 
 .logo{
     padding-left: 4px;
+}
+
+.blu{
+    background-color: #00008B;
+    align-items: center;
+}
+
+.pink{
+    border: 1px dashed black;
+    background-color: #EE82EE;
+    margin: 0 auto;
+    height: 350px;
+    width: 800px;  
+}
+
+.white>*{
+    height: 350px;
+    max-width: 600px;
+}
+
+.sky{
+    background-color: #1E90FF;
+    width: 75%;
+    
+}
+
+.light-pink{
+    background-color: #EE82EE;
+    width: 25%;
+    
+}
+
+.grey{
+    background-color: #D3D3D3;
+}
+
+.grey>* {
+    height: 350px;
+    max-width: 600px;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.green{
+    margin: 25px;
+    justify-content: center;
+    background-color: #228B22;
+    height: 600px;
+    width: 600px;
 }

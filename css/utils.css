@@ -5,13 +5,20 @@
 	margin: 0 auto;
 }
 
-.clearfix::after {
-	content: '';
-	clear: both;
-	display: table;
-}
-
 a{
 	text-decoration: none;
 	color: #1E1E1E;
+}
+
+section {
+	
+	min-height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+section>*{
+	border: 2px dashed black;
 }
