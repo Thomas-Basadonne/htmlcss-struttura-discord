@@ -10,3 +10,8 @@
 	clear: both;
 	display: table;
 }
+
+a{
+	text-decoration: none;
+	color: #1E1E1E;
+}
